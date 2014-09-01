@@ -1,0 +1,30 @@
+#ifndef _ERROR_H_
+#define _ERROR_H_
+
+#define OK 1
+#define FOUND 2
+
+#define MULTITHREADING_ERROR -1
+#define LISTEN_ERROR -2
+#define BIND_ERROR -3
+#define SOCKET_ERROR -4
+#define CACHE_ERROR -5
+#define THREAD_CREATION_ERROR -6
+#define NO_MEMORY_ERROR -7
+#define CLIENT_ERROR -8
+#define QUEUE_ERROR -9
+#define HTTP_PARSER_ERROR -10
+#define HTTP_HOST_NOT_FOUND -11
+#define ARRAY_ERROR -12
+#define INIT_QUEUE_ERROR -13
+#define HTTP_BAD_REQUEST_ERROR -14
+#define NOT_FOUND -15
+#define HASHMAP_ERROR -16
+#define CONSUMER_ERROR -17
+#define GETADDRINFO_ERROR -18
+#define CONNECT_ERROR -19
+#define SEND_ERROR -20
+#define CACHE_LINKEDLIST_ERROR -21
+#define REQUEST_TIMEOUT -22
+
+#endif
